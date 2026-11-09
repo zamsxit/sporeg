@@ -1,0 +1,14 @@
+{
+  "name": "spo-reg",
+  "version": "1.0.0",
+  "description": "Spotify Signup Automation CLI with Playwright",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

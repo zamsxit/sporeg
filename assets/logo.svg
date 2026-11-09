@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-label="Spotify Signup Automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121212"/>
+      <stop offset="1" stop-color="#1f1f1f"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1ed760"/>
+      <stop offset="1" stop-color="#1db954"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" rx="24" fill="url(#bg)"/>
+
+  <!-- Icon: circle with sound waves + terminal prompt -->
+  <g transform="translate(60 40)">
+    <circle cx="60" cy="60" r="60" fill="url(#green)"/>
+    <path d="M28 46c22-8 48-6 66 6" stroke="#121212" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M33 66c18-6 38-4 54 5" stroke="#121212" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+    <path d="M38 84c14-4 28-3 40 4" stroke="#121212" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Text -->
+  <text x="210" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Spotify Signup</text>
+  <text x="210" y="138" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="url(#green)">Automation</text>
+  <text x="440" y="138" font-family="Consolas, Menlo, monospace" font-size="22" fill="#b3b3b3">&gt;_ CLI</text>
+  <text x="210" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#b3b3b3">Node.js · Playwright · Brave / Chrome</text>
+</svg>
